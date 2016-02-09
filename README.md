@@ -70,7 +70,7 @@ Add the following requirement to your `composer.json`: `"laravelrus/localized-ca
 Next, add package's Service Provider to `app/config/app.php` in `providers` section:
 
 ```
-'Laravelrus\LocalizedCarbon\LocalizedCarbonServiceProvider',
+Laravelrus\LocalizedCarbon\LocalizedCarbonServiceProvider::class,
 ```
 
 After that you may want to add some Aliases (`aliases` section of the same config):
